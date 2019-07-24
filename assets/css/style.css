@@ -1,0 +1,53 @@
+.clearfix::after {
+    clear: both
+}
+body {
+    background-color: rgb(252, 238, 214);
+}
+.jumbotron {
+    align-content: center;
+    text-align: center;
+    font-family: 'Rye', cursive;
+    color: rgb(252, 238, 214);
+    text-shadow: 0 0 3px rgb(8, 0, 0), 0 0 5px rgb(216, 153, 18);
+    background-image: url(../images/train.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-color: rgb(160, 19, 19);
+    border: 5px solid rgb(250, 224, 109);
+}
+.display-4 {
+    font-size: 80px;
+    color: rgb(252, 238, 214);
+    text-decoration: underline;
+}
+.card-header {
+    font-size: 20px;
+}
+.card {
+    background-color: rgb(206, 139, 52);
+}
+.col-lg-7 {
+    float: left;
+    margin-left: 40px;
+    font-family: 'Rye', cursive;
+    font-size: 15px;
+    background-color: rgb(206, 139, 52);
+    border: 5px solid rgb(250, 224, 109);
+}
+.col-lg-4 {
+    float: left;
+    margin-left: 20px;
+    font-family: 'Rye', cursive;
+    font-size: 15px;
+    background-color: rgb(160, 19, 19);
+    border: 5px solid rgb(250, 224, 109);
+}
+#add-train-btn {
+    background-color: rgb(160, 19, 19);
+}
+
+/* font-family: 'Ewert', cursive;
+font-family: 'Volkhov', serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Rye', cursive; */

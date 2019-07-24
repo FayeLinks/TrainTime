@@ -22,7 +22,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Google Stylesheets -->
-
+    <link href="https://fonts.googleapis.com/css?family=Ewert|Fredericka+the+Great|Rye|Volkhov&display=swap" rel="stylesheet">
 
     <!-- CSS stylesheets -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -33,33 +33,36 @@
 
     <!-- Jumbotron that says the displayed name -->
     <div class="jumbotron jumbotron-fluid">
-        <div class="container">
             <h1 class="display-4">Ticket to Ride</h1>
             <p class="lead">All Aboard!</p>
-        </div>
     </div>
 
-    <!-- Table to display the Train Schedule details -->
-    <div class="row">
-        <div class="col-md-12">
-            <table class="table table-hover" id="train-table">
-                <div class="card-header">Current Train Schedule</div>
-                <thead>
-                    <tr>
-                        <th scope="col">Train Name</th>
-                        <th scope="col">Destination</th>
-                        <th scope="col">Frequency</th>
-                        <th scope="col">Next Arrival</th>
-                        <th scope="col">Minutes Away</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </div>
+    <div id="container">
+ <!-- Table to display the Train Schedule details -->
+ <div class="row">
+    <div class="col-lg-7">
+        <table class="table table-hover" id="train-table">
+            <div class="card-header">Current Train Schedule</div>
+            <thead>
+                <tr>
+                    <th scope="col">Train Name</th>
+                    <th scope="col">Destination</th>
+                    <th scope="col">Frequency</th>
+                    <th scope="col">Next Arrival</th>
+                    <th scope="col">Minutes Away</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
     </div>
+
+    <!-- <div class="col-lg-1">
+
+    </div> -->
 
 <!-- Entry Form for the user to enter Train specifics -->
+<div class="col-lg-4">
     <div class="card">
         <div class="card-header">
             Add Train
@@ -85,13 +88,13 @@
             <button type="button" class="btn btn-primary" id="add-train-btn">Search</button>
 
         </form>
-
     </div>
-
-    <div id="container">
-
-
     </div>
+</div>
+    </div>
+   
+    
+
 
     <!-- Javascript -->
     <script src="assets/javascript/app.js"></script>
